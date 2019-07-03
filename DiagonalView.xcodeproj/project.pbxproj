@@ -14,6 +14,7 @@
 		90EC5EE922CC963900C9EAA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EC5EE722CC963900C9EAA7 /* LaunchScreen.storyboard */; };
 		90EC5EF422CC963900C9EAA7 /* DiagonalViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC5EF322CC963900C9EAA7 /* DiagonalViewTests.swift */; };
 		90EC5EFF22CC963900C9EAA7 /* DiagonalViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC5EFE22CC963900C9EAA7 /* DiagonalViewUITests.swift */; };
+		90EC5F0D22CC965400C9EAA7 /* DiagonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC5F0C22CC965400C9EAA7 /* DiagonalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		90EC5EFA22CC963900C9EAA7 /* DiagonalViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiagonalViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EC5EFE22CC963900C9EAA7 /* DiagonalViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalViewUITests.swift; sourceTree = "<group>"; };
 		90EC5F0022CC963900C9EAA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EC5F0C22CC965400C9EAA7 /* DiagonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				90EC5EDE22CC963800C9EAA7 /* AppDelegate.swift */,
 				90EC5EE022CC963800C9EAA7 /* ViewController.swift */,
+				90EC5F0C22CC965400C9EAA7 /* DiagonalView.swift */,
 				90EC5EE222CC963800C9EAA7 /* Main.storyboard */,
 				90EC5EE522CC963900C9EAA7 /* Assets.xcassets */,
 				90EC5EE722CC963900C9EAA7 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90EC5EE122CC963800C9EAA7 /* ViewController.swift in Sources */,
+				90EC5F0D22CC965400C9EAA7 /* DiagonalView.swift in Sources */,
 				90EC5EDF22CC963800C9EAA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
